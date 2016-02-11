@@ -64,13 +64,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // create an object to create and manage database
         db4oProvider = new Db4oProvider(this);
 
-        for (Event e : db4oProvider.findAll(new Event())) {
-            Log.d(LOG_TAG, e.toString());
-        }
-        for (Day d : db4oProvider.findAll(new Day())) {
-            Log.d(LOG_TAG, d.toString());
-        }
-
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         PagerAdapter mPagerAdapter = new PagerAdapter(getSupportFragmentManager());
