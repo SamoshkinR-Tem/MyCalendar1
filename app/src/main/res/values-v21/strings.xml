@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_language">Language</string>
+    <string name="Monday">Mo</string>
+    <string name="Tuesday">Tu</string>
+    <string name="Wednesday">We</string>
+    <string name="Thursday">Th</string>
+    <string name="Friday">Fr</string>
+    <string name="Saturday">Sa</string>
+    <string name="Sunday">Su</string>
+    <string name="previous">Prev</string>
+    <string name="next">Next</string>
+    <string name="dialog_message_item_pinned">Item pinned! (position = %1$d)</string>
+    <string name="snack_bar_text_item_removed">1 item removed</string>
+    <string name="snack_bar_action_undo">UNDO</string>
+</resources>
